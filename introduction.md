@@ -73,9 +73,9 @@ The label can be of two or more classes. The above example has only two classes,
 ### 3.3. Regression
 When the output is a continuous value, the task is a regression. For instance, a financial analyst may need to forecast the value of a stock based on a range of feature like equity, previous stock performances, macroeconomics index. The system will be trained to estimate the price of the stocks with the lowest possible error.
 
-|No.	|Algorithm Name		|Description	|Type	|
-|-------|-------------------|---------------|-------|
-|1		|Linear regression	|Finds a way to correlate each feature to the output to help predict future values.	|regression 	|
+|No.	|Algorithm Name			|Description	|Type	|
+|-------|-----------------------|---------------|-------|
+|1		|Linear regression		|Finds a way to correlate each feature to the output to help predict future values.	|regression 	|
 |2		|Logistic regression|Extension of linear regression that's used for classification tasks. The output variable 3is binary (e.g., only black or white) rather than continuous (e.g., an infinite list of potential colors)	|Classification 	|
 |3		|Decision tree		|Highly interpretable classification or regression model that splits data-feature values into branches at decision nodes (e.g., if a feature is a color, each possible color becomes a new branch) until a final decision output is made	| Regression Classification|
 |4		|Naive Bayes		|The Bayesian method is a classification method that makes use of the Bayesian theorem. The theorem updates the prior knowledge of an event with the independent probability of each feature that can affect the event. 	|Regression Classification 	|
