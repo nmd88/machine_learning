@@ -69,3 +69,9 @@ Imagine you want to predict the gender of a customer for a commercial.
 	**For instance**: you just got new information from an unknown customer, and you want to know if it is a male or female. If the classifier predicts male = 70%, it means the algorithm is sure at 70% that this customer is a male, and 30% it is a female.
 
 The label can be of two or more classes. The above example has only two classes, but if a classifier needs to predict object, it has dozens of classes (e.g., glass, table, shoes, etc. each object represents a class)
+
+### 3.3. Regression
+When the output is a continuous value, the task is a regression. For instance, a financial analyst may need to forecast the value of a stock based on a range of feature like equity, previous stock performances, macroeconomics index. The system will be trained to estimate the price of the stocks with the lowest possible error.
+
+|Algorithm Name		|Description	|Type
+|Linear regression	|Finds a way to correlate each feature to the output to help predict future values.	|Regression
