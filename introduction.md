@@ -73,5 +73,6 @@ The label can be of two or more classes. The above example has only two classes,
 ### 3.3. Regression
 When the output is a continuous value, the task is a regression. For instance, a financial analyst may need to forecast the value of a stock based on a range of feature like equity, previous stock performances, macroeconomics index. The system will be trained to estimate the price of the stocks with the lowest possible error.
 
-|Algorithm Name		|Description	|Type
+|Algorithm Name		|Description	|Type	|
+|-------------------|---------------|-------|
 |Linear regression	|Finds a way to correlate each feature to the output to help predict future values.	|Regression
