@@ -46,3 +46,26 @@ When the model is built, it is possible to test how powerful it is on never-seen
 9. Use the model to make a prediction
 10. Once the algorithm gets good at drawing the right conclusions, it applies that knowledge to new sets of data.
 
+## 3. Machine learning Algorithms and where they are used?
+<IMG>
+Machine learning can be grouped into two broad learning tasks: Supervised and Unsupervised. There are many other algorithms.
+
+### 3.1. Supervised learning
+An algorithm uses training data and feedback from humans to learn the relationship of given inputs to a given output. 
+**For instance**: A practitioner can use marketing expense and weather forecast as input data to predict the sales of cans.
+
+_You can use supervised learning when the output data is known_. The algorithm will predict new data.
+
+There are two categories of supervised learning:
+- Classification task
+- Regression task
+
+### 3.2. Classification
+Imagine you want to predict the gender of a customer for a commercial. 
+- You will start gathering data on the height, weight, job, salary, purchasing basket, etc. from your customer database. 
+- You know the gender of each of your customer, it can only be male or female. 
+- The objective of the classifier will be to assign a probability of being a male or a female (i.e., the label) based on the information (i.e., features you have collected). 
+- When the model learned how to recognize male or female, you can use new data to make a prediction. 
+	**For instance**: you just got new information from an unknown customer, and you want to know if it is a male or female. If the classifier predicts male = 70%, it means the algorithm is sure at 70% that this customer is a male, and 30% it is a female.
+
+The label can be of two or more classes. The above example has only two classes, but if a classifier needs to predict object, it has dozens of classes (e.g., glass, table, shoes, etc. each object represents a class)
