@@ -34,7 +34,7 @@ For instance, the machine is trying to understand the relationship between the w
 When the model is built, it is possible to test how powerful it is on never-seen-before data. The new data are transformed into a features vector, go through the model and give a prediction. This is all the beautiful part of machine learning. There is no need to update the rules or train again the model. You can use the model previously trained to make inference on new data.
 <IMG>
 
-**_The life of Machine Learning programs_**
+**_The life of Machine Learning programs_**:
 1. Define a question
 2. Collect data
 3. Visualize data
@@ -44,5 +44,5 @@ When the model is built, it is possible to test how powerful it is on never-seen
 7. Refine the algorithm
 8. Loop 4-7 until the results are satisfying
 9. Use the model to make a prediction
-
+10. Once the algorithm gets good at drawing the right conclusions, it applies that knowledge to new sets of data.
 
