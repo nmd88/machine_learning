@@ -79,3 +79,18 @@ When the output is a continuous value, the task is a regression. For instance, a
 |2		|Logistic regression|Extension of linear regression that's used for classification tasks. The output variable 3is binary (e.g., only black or white) rather than continuous (e.g., an infinite list of potential colors)	|Classification 	|
 |3		|Decision tree		|Highly interpretable classification or regression model that splits data-feature values into branches at decision nodes (e.g., if a feature is a color, each possible color becomes a new branch) until a final decision output is made	| Regression Classification|
 |4		|Naive Bayes		|The Bayesian method is a classification method that makes use of the Bayesian theorem. The theorem updates the prior knowledge of an event with the independent probability of each feature that can affect the event. 	|Regression Classification 	|
+|5		|Support vector machine 	|Support Vector Machine, or SVM, is typically used for the classification task. SVM algorithm finds a hyperplane that optimally divided the classes. It is best used with a non-linear solver. 	|Regression (not very common) Classification 	|
+|6		|Random forest	 	|The algorithm is built upon a decision tree to improve the accuracy drastically. Random forest generates many times simple decision trees and uses the 'majority vote' method to decide on which label to return. For the classification task, the final prediction will be the one with the most vote; while for the regression task, the average prediction of all the trees is the final prediction. 	|Regression Classification 	|
+|7 		|AdaBoost	 	|Classification or regression technique that uses a multitude of models to come up with a decision but weighs them based on their accuracy in predicting the outcome 	|Regression Classification 	|
+|8 		|Gradient-boosting trees 	|Gradient-boosting trees is a state-of-the-art classification/regression technique. It is focusing on the error committed by the previous trees and tries to correct it. 	|Regression Classification 	|
+
+### 3.4. Unsupervised learning
+In unsupervised learning, an algorithm explores input data without being given an explicit output variable (e.g., explores customer demographic data to identify patterns)
+
+You can use it when you do not know how to classify the data, and you want the algorithm to find patterns and classify the data for you
+
+|No.	|Algorithm Name			|Description	|Type	|
+|-------|-----------------------|---------------|-------|
+|1		|K-means clustering 	|Puts data into some groups (k) that each contains data with similar characteristics (as determined by the model, not in advance by humans) 	|Clustering 	|
+|2		|Gaussian mixture model 	|A generalization of k-means clustering that provides more flexibility in the size and shape of groups (clusters) 	|Clustering 	|
+|3 		|Hierarchical clustering 	|Splits clusters along a hierarchical tree to form a classification system. <br>Can be used for Cluster loyalty-card customer 	|Clustering 	|
