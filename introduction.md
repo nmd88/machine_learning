@@ -44,18 +44,18 @@ The way the machine learns is similar to the human being:
 The core objective of machine learning is the learning and inference. 
 - **_Learning_**:
 The machine learns through the discovery of patterns. This discovery is made thanks to the data. One crucial part of the data scientist is to choose carefully which data to provide to the machine. The list of attributes used to solve a problem is called a feature vector. You can think of a feature vector as a subset of data that is used to tackle a problem.
-
+<br>
 The machine uses some fancy algorithms to simplify the reality and transform this discovery into a model. Therefore, the learning stage is used to describe the data and summarize it into a model.
-
+<br>
 ![](./images/ML_learning_phase.png)
 
 For instance, the machine is trying to understand the relationship between the wage of an individual and the likelihood to go to a fancy restaurant. It turns out the machine finds a positive relationship between wage and going to a high-end restaurant: This is the model
 
 - **_Inferring_**:
 When the model is built, it is possible to test how powerful it is on never-seen-before data. The new data are transformed into a features vector, go through the model and give a prediction. This is all the beautiful part of machine learning. There is no need to update the rules or train again the model. You can use the model previously trained to make inference on new data.
-
+<br>
 ![](./images/ML_inferring_phase.png)
-
+<br>
 **_The life of Machine Learning programs_**:
 1. Define a question
 2. Collect data
@@ -70,6 +70,7 @@ When the model is built, it is possible to test how powerful it is on never-seen
 
 ## 3. Machine learning Algorithms
 ![](./images/ML_algorithms.png)
+
 Machine learning can be grouped into two broad learning tasks: Supervised and Unsupervised. There are many other algorithms.
 
 ### 3.1. Supervised learning
