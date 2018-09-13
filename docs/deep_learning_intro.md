@@ -12,6 +12,8 @@ DEEP LEARNING
 ## 1. What is Deep learning?
 Deep learning is a computer software that mimics the network of neurons in a brain. 
 It is a subset of machine learning and is called deep learning because it makes use of deep neural networks.
+In deep learning, the learning phase is done through a neural network. 
+A neural network is an architecture where the layers are stacked on top of each other
 
 ![](./images/deep_learning_architecture.png)
 Deep learning algorithms are constructed with connected layers.
@@ -22,6 +24,16 @@ Deep learning algorithms are constructed with connected layers.
 	Each Hidden layer is composed of neurons. The neurons are connected to each other. The neuron will process and then propagate the input signal it receives the layer above it. The strength of the signal given the neuron in the next layer depends on the weight, bias and activation function.
 
 The network consumes large amounts of input data and operates them through multiple layers; the network can learn increasingly complex features of the data at each layer.
+
+**_Difference between Machine Learning and Deep Learning_**:
+
+|		|Machine Learning 		|Deep learning 			|
+|-------|-----------------------|-----------------------|
+|Data Dependencies 	|Excellent performances on a small/medium dataset	|Excellent performance on a big dataset 	|
+|Hardware dependencies 	|Work on a low-end machine.		|Requires powerful machine, preferably with GPU: DL performs a significant amount of matrix multiplication 		|
+|Feature engineering 	|Need to understand the features that represent the data 	|No need to understand the best feature that represents the data 	|
+|Execution time 	|From few minutes to hours 	|Up to weeks. Neural Network needs to compute a significant number of weights 	|
+|Interpretability 	|Some algorithms are easy to interpret (logistic, decision tree), some are almost impossible (SVM, XGBoost) 	|Difficult to impossible 	|
 
 ## 2. Deep learning Process
 A deep neural network provides state-of-the-art accuracy in many tasks, from object detection to speech recognition. 
@@ -50,6 +62,10 @@ After 10 minutes of training, the model does not know how to dance, and it looks
 
 After 48 hours of learning, the computer masters the art of dancing.
 ![](./images/after_deep_learning.gif)
+
+Each input goes into a neuron and is multiplied by a weight. The result of the multiplication flows to the next layer and become the input. This process is repeated for each layer of the network. The final layer is named the output layer; it provides an actual value for the regression task and a probability of each class for the classification task. The neural network uses a mathematical algorithm to update the weights of all the neurons. The neural network is fully trained when the value of the weights gives an output close to the reality. For instance, a well-trained neural network can recognize the object on a picture with higher accuracy than the traditional neural net.
+
+![](./images/DL_process.png)
 
 ## 3. Classification of Neural Networks
 1. Shallow neural network: The Shallow neural network has only one hidden layer between the input and output.
@@ -117,5 +133,16 @@ Underwrite is a Fintech company providing an AI solution for credit makers compa
 - AI in HR: Under Armour, a sportswear company revolutionizes hiring and modernizes the candidate experience with the help of AI. In fact, Under Armour Reduces hiring time for its retail stores by 35%. Under Armour faced a growing popularity interest back in 2012. They had, on average, 30000 resumes a month. Reading all of those applications and begin to start the screening and interview process was taking too long. The lengthy process to get people hired and on-boarded impacted Under Armour's ability to have their retail stores fully staffed, ramped and ready to operate.
 <br>
 At that time, Under Armour had all of the 'must have' HR technology in place such as transactional solutions for sourcing, applying, tracking and onboarding but those tools weren't useful enough. Under armour choose HireVue, an AI provider for HR solution, for both on-demand and live interviews. The results were bluffing; they managed to decrease by 35% the time to fill. In return, the hired higher quality staffs.
+
+### 5.1. Automate Feature Extraction using DL
+A dataset can contain a dozen to hundreds of features. The system will learn from the relevance of these features. However, not all features are meaningful for the algorithm. A crucial part of machine learning is to find a relevant set of features to make the system learns something.
+
+One way to perform this part in machine learning is to use feature extraction. Feature extraction combines existing features to create a more relevant set of features. It can be done with PCA, T-SNE or any other dimensionality reduction algorithms.
+
+For example, an image processing, the practitioner needs to extract the feature manually in the image like the eyes, the nose, lips and so on. Those extracted features are feed to the classification model.
+
+Deep learning solves this issue, especially for a convolutional neural network. The first layer of a neural network will learn small details from the picture; the next layers will combine the previous knowledge to make more complex information. In the convolutional neural network, the feature extraction is done with the use of the filter. The network applies a filter to the picture to see if there is a match, i.e., the shape of the feature is identical to a part of the image. If there is a match, the network will use this filter. The process of feature extraction is therefore done automatically.
+
+![](./images/DL_vs_ML.png)
 
 ## 6. References
