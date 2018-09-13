@@ -20,6 +20,24 @@ Nowadays, AI is used in almost all industries, giving a technological edge to al
 Concretely, if an organization uses AI for its marketing team, it can automate mundane and repetitive tasks, allowing the sales representative to focus on tasks like relationship building, lead nurturing, etc. A company name Gong provides a conversation intelligence service. Each time a Sales Representative make a phone call, the machine records transcribes and analyzes the chat. The VP can use AI analytics and recommendation to formulate a winning strategy.
 <br>
 In a nutshell, AI provides a cutting-edge technology to deal with complex data which is impossible to handle by a human being. AI automates redundant jobs allowing a worker to focus on the high level, value-added tasks. When AI is implemented at scale, it leads to cost reduction and revenue increase.
+<br>
+AI has three different levels:
+- Narrow AI: A artificial intelligence is said to be narrow when the machine can perform a specific task better than a human. The current research of AI is here now
+- General AI: An artificial intelligence reaches the general state when it can perform any intellectual task with the same accuracy level as a human would
+- Active AI: An AI is active when it can beat humans in many tasks
+
+Early AI systems used pattern matching and expert systems.
+
+**_When to use ML or DL?_**:
+
+|		|ML 	|DL 	|
+|-------|-------|-------|
+|Training dataset 	|Small 	|Large 	|
+|Choose features	|Yes 	|No 	|
+|Number of algorithms 	|Many 	|Few 	|
+|Training time |Short 	|Long 	|
+
+With machine learning, you need fewer data to train the algorithm than deep learning. Deep learning requires an extensive and diverse set of data to identify the underlying structure. Besides, machine learning provides a faster-trained model. Most advanced deep learning architecture can take days to a week to train. The advantage of deep learning over machine learning is it is highly accurate. You do not need to understand what features are the best representation of the data; the neural network learned how to select critical features. In machine learning, you need to choose for yourself what features to include in the model.
 
 ## 2. Type of Artificial Intelligence
 Artificial intelligence can be divided into three subfields:

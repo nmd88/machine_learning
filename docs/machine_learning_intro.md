@@ -35,6 +35,37 @@ Machine learning is supposed to overcome this issue. The machine learns how the 
 
 ![](./images/machine_learning_vs_traditional_programing.png)
 
+### 1.3. Process
+Imagine you are meant to build a program that recognizes objects. 
+To train the model, you will use a classifier. 
+A classifier uses the features of an object to try identifying the class it belongs to.
+
+In the example, the classifier will be trained to detect if the image is a:
+- Bicycle
+- Boat
+- Car
+- Plane
+
+The four objects above are the class the classifier has to recognize. To construct a classifier, you need to have some data as input and assigns a label to it. The algorithm will take these data, find a pattern and then classify it in the corresponding class.
+
+This task is called _supervised learning_. **In supervised learning, the training data you feed to the algorithm includes a label**.
+
+Training an algorithm requires to follow a few standard steps:
+- Collect the data
+- Train the classifier
+- Make predictions
+
+The first step is necessary, choosing the right data will make the algorithm success or a failure. 
+The data you choose to train the model is called a feature. 
+In the object example, the features are the pixels of the images.
+
+Each image is a row in the data while each pixel is a column. 
+If your image is a 28x28 size, the dataset contains 784 columns (28x28). 
+In the picture below, each picture has been transformed into a feature vector. 
+The label tells the computer what object is in the image.
+
+![](./images/ML_process.png)
+
 ## <a name="how"></a> 2. How does Machine learning work?
 Machine learning is the brain where all the learning takes place. 
 The way the machine learns is similar to the human being: 
